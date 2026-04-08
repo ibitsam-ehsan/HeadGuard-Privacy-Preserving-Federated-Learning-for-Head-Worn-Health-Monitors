@@ -16,14 +16,7 @@ Implementation of frequency-domain noise shaping for differential privacy in fed
 
 Install with:
 
-## Files
 
-- `headguard/core.py` - Main noise shaping and DP logic
-- `headguard/attacks.py` - MIA implementations (confidence, loss, metric)
-- `headguard/utils.py` - PSD estimation, spectral weights
-- `examples/quickstart.py` - Minimal working example
-- `configs/default.yaml` - Parameters
-- 
 ## Files
 
 - `headguard/core.py` - Main noise shaping and DP logic
