@@ -23,16 +23,7 @@ Install with:
 - `headguard/utils.py` - PSD estimation, spectral weights
 - `examples/quickstart.py` - Minimal working example
 - `configs/default.yaml` - Parameters
-
-## Quick example
-
-```python
-from headguard import HeadGuard
-
-hg = HeadGuard(epsilon=4.0, delta=1e-5, sampling_rate=64)
-hg.train(model, train_loader)
-
-
+- 
 ## Files
 
 - `headguard/core.py` - Main noise shaping and DP logic
@@ -48,3 +39,15 @@ from headguard import HeadGuard
 
 hg = HeadGuard(epsilon=4.0, delta=1e-5, sampling_rate=64)
 hg.train(model, train_loader)
+
+## Quick example
+
+```python
+from headguard import HeadGuard
+
+hg = HeadGuard(epsilon=4.0, delta=1e-5, sampling_rate=64)
+hg.train(model, train_loader)
+
+
+
+
